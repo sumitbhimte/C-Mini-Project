@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "typeinfo": "c",
+        "cstdlib": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstdio": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "type_traits": "cpp",
+        "limits": "cpp",
+        "*.tcc": "cpp",
+        "cstdint": "cpp",
+        "unity.h": "c"
+    }
+}
