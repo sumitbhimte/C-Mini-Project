@@ -27,9 +27,9 @@ void viewUserDetails(void)
     if (choice == 1)
     {
         printf("Enter the account number:");
-        scanf("%19d", &check.acc_no);
+        scanf("%d", &check.acc_no);
     
-        while (fscanf(ptr, "%19d %59s %2d/%2d/%4d %2d %59s %14s %11lf %9s %7f %2d/%2d/%4d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
+        while (fscanf(ptr, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
         {
             if (add.acc_no == check.acc_no)
             {
@@ -76,8 +76,8 @@ void viewUserDetails(void)
     else if (choice == 2)
     {
         printf("Enter the name:");
-        scanf("%19s", check.name);
-        while (fscanf(ptr, "%19d %59s %2d/%2d/%4d %2d %59s %14s %11lf %9s %7f %2d/%2d/%4d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
+        scanf("%s", check.name);
+        while (fscanf(ptr, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
         {
             if (strcmp(add.name, check.name) == 0)
             {

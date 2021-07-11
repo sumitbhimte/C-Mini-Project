@@ -58,10 +58,12 @@ clean :
     #del all.exe
 
 #valgrind only works in wsl 
+#In windows use Dr.Memory
 #check the heap memory usage 
 valgrind :
 	valgrind $(call FixPath,$(TEST_OUTPUT))
 
+#Code Coverage Check
 coverageCheck:$(BUILD_DIR)
 	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC) -o $(OUTPUT)
 	./$(OUTPUT)

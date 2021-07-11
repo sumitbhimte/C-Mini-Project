@@ -19,11 +19,11 @@ int view_list(int a)
     view = fopen("record.dat", "r");
     int test = 0;
      
-    printf("\nACC. NO.\tNAME\t\t\tADDRESS\t\t\tPHONE\n");
+    printf("\nACC. NO.\tNAME\t\t  ADDRESS\t\tPHONE\n");
 
-    while (fscanf(view, "%19d %59s %2d/%2d/%4d %2d %59s %14s %11lf %9s %7f %2d/%2d/%4d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
+    while (fscanf(view, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.month, &add.deposit.day, &add.deposit.year) != EOF)
     {
-        printf("\n%6d\t %10s\t\t\t%10s\t\t%.0lf", add.acc_no, add.name, add.address, add.phone);
+        printf("\n%6d\t %10s\t\t%10s\t\t%.0lf", add.acc_no, add.name, add.address, add.phone);
         test++;
     }
 
@@ -36,7 +36,7 @@ int view_list(int a)
 
 view_list_invalid:
     printf("\n\nEnter 1 to go to the main menu and 0 to exit:");
-    scanf("%1d", &prog_exit);
+    scanf("%d", &prog_exit);
      
     if (prog_exit == 1)
         menu();

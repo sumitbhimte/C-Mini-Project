@@ -21,18 +21,18 @@ void changeDetails(void)
 
     printf("\nEnter the account no. of the customer whose info you want to change:");
     scanf("%19d", &update.acc_no);
-    while (fscanf(old, "%19d %59s %2d/%2d/%4d %2d %59s %14s %11lf %9s %7f %2d/%2d/%4d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.day, &add.deposit.month, &add.deposit.year) != EOF)
+    while (fscanf(old, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d", &add.acc_no, add.name, &add.dob.month, &add.dob.day, &add.dob.year, &add.age, add.address, add.citizenship, &add.phone, add.acc_type, &add.amount, &add.deposit.day, &add.deposit.month, &add.deposit.year) != EOF)
     {
         if (add.acc_no == update.acc_no)
         {
             test = 1;
             printf("\nWhich information do you want to change?\n1.Address\n2.Phone\n\nEnter your choice(1 for address and 2 for phone):");
-            scanf("%1d", &choice);
+            scanf("%d", &choice);
 
             if (choice == 1)
             {
                 printf("Enter the new address:");
-                scanf("%59s", update.address);
+                scanf("%s", update.address);
                 fprintf(newrec, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, update.address, add.citizenship, add.phone, add.acc_type, add.amount, add.deposit.month, add.deposit.day, add.deposit.year);
 
                 printf("Changes saved!");
@@ -40,7 +40,7 @@ void changeDetails(void)
             else if (choice == 2)
             {
                 printf("Enter the new phone number:");
-                scanf("%10lf", &update.phone);
+                scanf("%lf", &update.phone);
                 fprintf(newrec, "%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n", add.acc_no, add.name, add.dob.month, add.dob.day, add.dob.year, add.age, add.address, add.citizenship, update.phone, add.acc_type, add.amount, add.deposit.month, add.deposit.day, add.deposit.year);
 
                 printf("Changes saved!");
@@ -60,7 +60,7 @@ void changeDetails(void)
         printf("\nRecord not found!!\a\a\a");
     edit_invalid:
         printf("\nEnter 0 to try again,1 to return to main menu and 2 to exit:");
-        scanf("%1d", &prog_exit);
+        scanf("%d", &prog_exit);
 
         if (prog_exit == 1)
 
@@ -78,7 +78,7 @@ void changeDetails(void)
     else
     {
         printf("\n\n\nEnter 1 to go to the main menu and 0 to exit:");
-        scanf("%1d", &prog_exit);
+        scanf("%d", &prog_exit);
 
         if (prog_exit == 1)
             menu();
