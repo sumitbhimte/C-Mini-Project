@@ -5,11 +5,11 @@
 
 <br>
 
-- ![Class Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/Class%20Diagram.png?raw=true)
+- ![Class Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/ClassDiagram.png?raw=true)
 
-- ![Activity Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/Activity%20Diagram.png?raw=true)
+- ![Activity Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/ActivityDiagram.png?raw=true)
 
-- ![Data Flow Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/Data%20FlowDiagram.jpg?raw=true)
+- ![Data Flow Diagram](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/DataFlowDiagram.jpg?raw=true)
 
 <br>
 
