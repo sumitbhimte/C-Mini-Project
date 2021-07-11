@@ -48,7 +48,7 @@ Folder                | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 `302375` | Sumit Bhimte  | Feature A, B etc    | 0    | 0   |4   |4    
 
