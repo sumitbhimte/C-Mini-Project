@@ -65,7 +65,7 @@ valgrind :
 
 #Code Coverage Check
 coverageCheck:$(BUILD_DIR)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) $(INC) -o $(OUTPUT)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) -I$(INC) -o $(OUTPUT)
 	./$(OUTPUT)
 
 #test the testcases 
