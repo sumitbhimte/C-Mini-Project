@@ -20,7 +20,7 @@
 int menu(void)
 {
     int choice;
-
+    int a;
     printf("\n\n\t\t\t BANKING MANAGEMENT SYSTEM");
     printf("\n\n\n\t\t\t******** WELCOME TO THE MAIN MENU ********");
     printf("\n\n\t\t1.Create new account\n\t\t2.Update info of existing account\n\t\t3.For transactions\n\t\t4.Check the details of existing account\n\t\t5.Removing existing account\n\t\t6.View customer's list\n\t\t7.Exit\n\n\n\n\n\t\t Enter your choice:");
@@ -44,7 +44,7 @@ int menu(void)
         erase();
         break;
     case 6:
-        view_list();
+        view_list(a);
         break;
     case 7:
         closeProg();

@@ -13,7 +13,7 @@
 #define __BANK_H
 
 extern int prog_exit;
-
+extern int a;
 struct date
 {
   int month, day, year;
@@ -36,7 +36,7 @@ struct
 } add, update, check, removeAccn, transaction;
 
 int menu(void);
-int view_list();
+int view_list(int a);
 void new_account();
 void changeDetails(void);
 void transact(void);
