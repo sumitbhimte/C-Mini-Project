@@ -79,7 +79,16 @@ SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 <br>
 
-## Learning Resources
+## SWOT Analysis
+
+<br>
+
+![SWOT](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/SWOT%20Analysis.png?raw=true)
+
+<br>
+<br>
+
+## Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
@@ -87,9 +96,3 @@ SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 5. [How to write Makefile](https://github.com/riuandg5/learn-makefile)
 
 <br>
-
-## SWOT Analysis
-
-<br>
-
-![SWOT](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/SWOT%20Analysis.png?raw=true)
