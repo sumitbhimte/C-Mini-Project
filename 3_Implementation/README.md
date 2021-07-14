@@ -3,7 +3,7 @@
 ## Folder Structure
 Folder        | Description
 --------------| ----------------------------------------------
-`doc`         | Doxygen DOcumentation
+`doc`         | Doxygen Documentation
 `inc`         | Header files
 `src`         | Source code Files
 `test`        | Unit Testing Files

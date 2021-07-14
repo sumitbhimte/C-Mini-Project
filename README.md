@@ -50,11 +50,24 @@ Folder                | Description
 
 SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`302375` | Sumit Bhimte  | Feature A, B etc    | 0    | 0   |4   |4    
+`302375` | Sumit Bhimte  | 6    | 0    | 0   |4   |4    
 
 <br>
 <br>
 
+## Features
+
+| No. | Features 
+|-----|----------
+|1. | Create Account 
+|2. | Update Account
+|3. | Transactions can be done
+|4. | View Customers list
+|5. | Check Details
+|6. | Remove Account
+
+<br>
+<br>
 
 ## Challenges Faced and How Was It Overcome
 | No. | Challenge | Solution
@@ -71,6 +84,7 @@ SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/)
+5. [How to write Makefile](https://github.com/riuandg5/learn-makefile)
 
 <br>
 

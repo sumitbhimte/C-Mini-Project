@@ -62,17 +62,27 @@
 
 ## High Level Requirements
 
-The necessary header files must be added to perform dynamic memory allocation, standard input/output functions, structures, pointers, looping statements such as for, while, switch-case, if and else-if ladder.
+| No. | Description | 
+|-----|-----------|
+|1. | Basic functionalty of banking system  
+|2. | How deposit and withdraw of money works 
+|3. | Familiar with Simple and Compound Interest terminology 
 
 <br>
 
 ## Low Level Requirements
 
-1. The header files required for the project are as follows
-   - <stdio.h> - to make use of standard input/output functions
-   - <string.h> - to make use of string functions
-   - <stdlib.h> - for dynamic memory allocation, pointers and system functions for the console window
-2. The user must input the choice as all the specific information given.
-3. Based on the choice of the user, system process and gives the proper information.
+| No. | Description | 
+|-----|-----------|
+| 1.  | The header files required for the project  
+| 1.1 | <stdio.h> - to make use of standard input/output functions
+| 1.2 | <string.h> - to make use of string functions
+| 1.3 | <stdlib.h> - for dynamic memory allocation, pointers and system functions for the console window
+| 2   | The user must input the choice as all the specific information given
+| 3   | Must installed make utility to run
+
 
 <br>
+
+
+![SWOT](https://github.com/sumitbhimte/C-Mini-Project/blob/main/6_ImagesAndVideos/SWOT%20Analysis.png?raw=true)
