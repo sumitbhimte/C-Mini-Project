@@ -50,7 +50,7 @@ Folder                | Description
 
 SF id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`302375` | Sumit Bhimte  | 6    | 0    | 0   |4   |4    
+`302375` | Sumit Bhimte  | 6    | 1    | 1   |4   |4    
 
 <br>
 <br>
